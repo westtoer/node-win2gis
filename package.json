@@ -1,0 +1,28 @@
+{
+  "name": "node-win2gis",
+  "version": "0.0.0",
+  "description": "Tool to make gis-aware csv files from win2 dumps",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:westtoer/node-win2gis.git"
+  },
+  "main": "lib/win2gis.js",
+  "scripts": {
+    "test": "mocha test/*js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.2.1",
+    "chai": "^3.0.0",
+    "csv": "^0.4.5",
+    "graceful-fs": "^4.1.2",
+    "mocha": "^2.2.5",
+    "moment": "^2.10.3",
+    "yargs": "^3.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/westtoer/node-win2gis/issues"
+  },
+  "homepage": "https://github.com/westtoer/node-win2gis"
+}
