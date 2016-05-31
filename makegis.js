@@ -6,7 +6,6 @@
 "use strict";
 
 var w2g = require('./lib/win2gis'),
-    rwcsv = require('./lib/rwcsv'),
     fs = require('graceful-fs'),
     path = require('path'),
     argv = require('yargs'),
